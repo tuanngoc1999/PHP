@@ -1,0 +1,43 @@
+#footer{
+    position: relative;
+    bottom: 0px;
+    background-color: #E8E8E8;
+}
+
+#advertisement_panel {
+    height: 100px;
+}
+
+body{
+    font-size: 15px;
+}
+
+.col-3.place-to-hover:hover img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.45s ease-in-out;
+}
+
+.col-3.place-to-hover span{
+    display: none;
+    position: absolute;
+    top: 185px;
+         
+}
+
+.col-3.place-to-hover span.btnGioHang{
+    left: 75px;   
+}    
+
+.col-3.place-to-hover span.btnDetail{
+    left: 135px;   
+}   
+
+.col-3.place-to-hover:hover span{
+    display: block ;
+}
+
+button.detail{
+    width: 45px;
+    height: 45px;
+} 
